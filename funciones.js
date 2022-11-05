@@ -222,7 +222,7 @@ function gameOver() {
 	if( enemigosVivos == 0 ){
 		mensaje("GANASTE");
 	}else{
-		mensaje("GAME OVER");
+		mensaje("MANKO");
 	}
 	endGame = true;
 	clearTimeout(disparoEnemigo);
