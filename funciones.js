@@ -220,7 +220,7 @@ function gameOver() {
 	ovnis_array = [];
 	balasEnemigas_array = [];
 	if( enemigosVivos == 0 ){
-		mensaje("GANASTE");
+		mensaje("ÉPICO ETERNO");
 	}else{
 		mensaje("JAJA MANKO");
 	}
